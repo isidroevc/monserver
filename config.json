@@ -1,0 +1,4 @@
+{
+  "communityChain": "community_chain_example",
+  "mysqlConnectionString": "root@tcp(localhost:3306)/stats"
+}
