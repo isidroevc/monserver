@@ -29,6 +29,7 @@ func Receiver(w http.ResponseWriter, r *http.Request) {
 
 		err := connection.ReadJSON(message)
 		if message.CommunityChain != config.CommunityChain {
+			log.Println(connection.ReadMessage())
 			log.Print(config.CommunityChain)
 			log.Println("Failed auth with CC: ", message.CommunityChain)
 			break

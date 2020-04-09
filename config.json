@@ -1,4 +1,4 @@
 {
   "communityChain": "community_chain_example",
-  "mysqlConnectionString": "root@tcp(localhost:3306)/stats"
+  "mysqlConnectionString": "remote:admin@tcp(127.0.0.1:3306)/stats"
 }
